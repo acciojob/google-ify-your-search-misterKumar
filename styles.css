@@ -12,24 +12,18 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
   padding: 1rem;
 }
 
-.logo {
+nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .logo img {
   height: 3rem;
-}
-
-.sign-in {
-  display: flex;
-  align-items: center;
 }
 
 .sign-in button {
@@ -73,38 +67,15 @@ main form button:hover {
   background-color: #ddd;
 }
 
-main form #i-m-feeling-lucky {
-  width: 30%;
-  display: none;
-}
-
 footer {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
   padding: 1rem;
   background-color: #f2f2f2;
-}
-
-.footer-left {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
-.footer-left p {
-  margin-right: 1rem;
-}
-
-.footer-left a {
+.l_ftr a {
   color: #0077cc;
   text-decoration: none;
-}
-
-.footer-right {
-  display: flex;
-  align-items: center;
-}
-
-.footer-right p {
-  margin-right: 1rem;
 }
