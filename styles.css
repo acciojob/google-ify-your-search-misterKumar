@@ -82,6 +82,7 @@ footer {
 .r_ftr {
   display: flex;
   align-items: center;
+  gap:1rem;
 }
 
 .r_ftr p {
