@@ -79,3 +79,11 @@ footer {
   color: #0077cc;
   text-decoration: none;
 }
+.r_ftr {
+  display: flex;
+  align-items: center;
+}
+
+.r_ftr p {
+  margin-right: 1rem;
+}
